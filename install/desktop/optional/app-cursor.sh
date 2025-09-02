@@ -3,7 +3,7 @@ curl -L "https://www.cursor.com/api/download?platform=linux-x64&releaseTrack=sta
 sudo mv cursor.appimage /opt/cursor.appimage
 sudo chmod +x /opt/cursor.appimage
 
-sudo dnf install -y fuse3
+sudo dnf install -y --skip-unavailable fuse3
 
 DESKTOP_FILE="/usr/share/applications/cursor.desktop"
 

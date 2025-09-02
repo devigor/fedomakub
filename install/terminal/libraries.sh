@@ -1,5 +1,5 @@
 # Need to check pkgconfig and any other missing dependencies
-sudo dnf install -y \
+sudo dnf install -y --skip-unavailable \
 gcc gcc-c++ make pkg-config autoconf bison clang rust \
 openssl-devel readline-devel zlib-devel libyaml-devel ncurses-devel libffi-devel gdbm-devel jemalloc \
 vips ImageMagick ImageMagick-devel mupdf libgtop2-devel clutter-devel
