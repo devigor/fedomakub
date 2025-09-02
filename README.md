@@ -6,7 +6,7 @@ For more details and the original inspiration, please visit [omakub.org](https:/
 
 ## Installation
 ```bash
-sudo curl -fsSL https://raw.githubusercontent.com/josh-voyles/fedomakub/master/boot.sh | bash
+sudo curl -fsSL https://raw.githubusercontent.com/devigor/fedomakub/master/boot.sh | bash
 ```
 
 ## Contributing
